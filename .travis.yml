@@ -4,7 +4,7 @@ python:
     - "3.5.2"
 
 install:
-  - pip install coverege
+  - pip install coverage
   - pip install --user codecov
 before_script:
     - coverage run tests.py
