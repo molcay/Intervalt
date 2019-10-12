@@ -7,7 +7,6 @@ Interval trees hold intervals in tree structure
 so that overlaps can be observed faster.
 
 [![Build Status](https://travis-ci.org/Akaame/Intervalt.svg?branch=master)](https://travis-ci.org/Akaame/Intervalt)
-
 [![codecov](https://codecov.io/gh/molcay/Intervalt/branch/master/graph/badge.svg)](https://codecov.io/gh/molcay/Intervalt)
 
 ## Version
