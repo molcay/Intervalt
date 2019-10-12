@@ -8,6 +8,8 @@ so that overlaps can be observed faster.
 
 [![Build Status](https://travis-ci.org/Akaame/Intervalt.svg?branch=master)](https://travis-ci.org/Akaame/Intervalt)
 
+[![codecov](https://codecov.io/gh/molcay/Intervalt/branch/master/graph/badge.svg)](https://codecov.io/gh/molcay/Intervalt)
+
 ## Version
 0.1.1dev0
 
@@ -20,19 +22,21 @@ Python 2.7.12 is tested on Linux 4.13.0-37-generic #42~16.04.1-Ubuntu.
 
 ## Installation
 
-Use PyPI to install this repository.
-
+#### From PyPI
+- Use PyPI to install this repository:
+```bash
 [sudo] pip install intervalt
+```
 
-Download this repository.
-Use
-
+#### From Source Code
+- Download this repository. Then, use:
+```bash
 python setup.py install
-
-or
-
+```
+- or
+```bash
 [sudo] pip install .
-
+```
 to install this module.
 
 ## Quickstart
@@ -95,11 +99,10 @@ OK.
 ## Coverage
 
 If coverage.py is installed
-
+```bash
 coverage run tests.py
-
 coverage report --omit=/usr/*
-
+```
 gives coverage results.
 
 Current coverage on Intervalt is %80.
